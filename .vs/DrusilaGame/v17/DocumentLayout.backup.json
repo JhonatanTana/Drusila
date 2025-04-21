@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Projetos\\Drusila\\DrusilaGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dificuldades.cs",
+              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Dificuldades.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Dificuldades.cs",
+              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Dificuldades.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Dificuldades.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T16:59:58.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Inicio.cs",
+              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Inicio.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inicio.cs",
+              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Inicio.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inicio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-13T16:51:20.62Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
