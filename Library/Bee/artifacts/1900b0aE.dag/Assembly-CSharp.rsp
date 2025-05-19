@@ -116,6 +116,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:ENABLE_BURST_AOT
 -define:UNITY_TEAM_LICENSE
+-define:UNITY_PRO_LICENSE
 -define:ENABLE_CUSTOM_RENDER_TEXTURE
 -define:ENABLE_DIRECTOR
 -define:ENABLE_LOCALIZATION
@@ -447,8 +448,10 @@
 "Assets/Scripts/Camera.cs"
 "Assets/Scripts/Controller.cs"
 "Assets/Scripts/Dificuldades.cs"
+"Assets/Scripts/Enemies.cs"
 "Assets/Scripts/GameOver.cs"
 "Assets/Scripts/GameOverMenu.cs"
+"Assets/Scripts/HeadTrigger.cs"
 "Assets/Scripts/Inicio.cs"
 "Assets/Scripts/Jogador.cs"
 "Assets/Scripts/Parallax.cs"

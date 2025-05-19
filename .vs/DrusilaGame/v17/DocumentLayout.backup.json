@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\Projetos\\Drusila\\DrusilaGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inicio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|D:\\Projetos\\Drusila\\DrusilaGame\\assets\\scripts\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|D:\\Projetos\\Drusila\\DrusilaGame\\assets\\scripts\\headtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\headtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,29 +41,44 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dificuldades.cs",
-              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Dificuldades.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Dificuldades.cs",
-              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Dificuldades.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Dificuldades.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T16:59:58.043Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Inicio.cs",
-              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Inicio.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Inicio.cs",
-              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Inicio.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Inicio.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Jogador.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Jogador.cs",
+              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Jogador.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Jogador.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAcwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-13T16:51:20.62Z",
+              "WhenOpened": "2025-05-10T01:59:05.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HeadTrigger.cs",
+              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\HeadTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HeadTrigger.cs",
+              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\HeadTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HeadTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T02:16:31.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemies.cs",
+              "DocumentMoniker": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Enemies.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies.cs",
+              "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Enemies.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Enemies.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T19:51:45.994Z",
               "EditorCaption": ""
             }
           ]

@@ -6,7 +6,7 @@ public class GameOverMenu : MonoBehaviour
     public void RestartGame() {
         int nVida = Dificuldades.Instance.RecuperaVidaDefinida();
         Controller.Instance.DefineVida(nVida);
-        SceneManager.LoadScene("Nivel1");
+        SceneManager.LoadScene("SCENE 1");
     }
 
     public void QuitGame() {

@@ -40,7 +40,7 @@ public class Dificuldades : MonoBehaviour
     }
 
     public void Iniciar() {
-        SceneManager.LoadScene("Nivel1");
+        SceneManager.LoadScene("SCENE 1");
     }
 
     private void DefineVidaRecuperada(int vida) {
