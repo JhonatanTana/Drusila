@@ -13,11 +13,12 @@ public class Enemies : MonoBehaviour {
 
     [Header("Config de Vida")]
     public int health = 1;
+    public bool dying = false;
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        }
+    }
 
     private void Update() {
         Patrol();
@@ -27,6 +28,7 @@ public class Enemies : MonoBehaviour {
         health -= damage;
 
         if (health <= 0) {
+            dying = true;
             animator.SetBool("morte", true);
             Invoke("Die", 0.5f); // 1 segundo de delay para a animação rodar
         }

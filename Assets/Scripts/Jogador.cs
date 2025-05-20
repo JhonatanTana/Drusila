@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Jogador : MonoBehaviour
 {
+    public static Jogador Instance;
     public float Speed;
     public float jump;
     public bool IsJumping;
@@ -14,6 +15,10 @@ public class Jogador : MonoBehaviour
     public int damage = 1; // Dano causado
     public Transform attackPoint; // Ponto de ataque (você vai criar um vazio para isso)
     public string enemyTag = "Enemy";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
+
+    void Awake() {
+        Instance = this;
+    }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start() {
@@ -114,5 +119,9 @@ public class Jogador : MonoBehaviour
         if (attackPoint == null) return;
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(attackPoint.position, attackRange);
+    }
+
+    public void GanharDano() {
+        damage++;
     }
 }

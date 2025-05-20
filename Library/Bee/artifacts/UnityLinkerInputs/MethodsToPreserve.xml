@@ -1,4 +1,20 @@
 <linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="Dificuldades">
+			<method name="Dificil"/>
+			<method name="Facil"/>
+			<method name="Medio"/>
+			<method name="Voltar"/>
+		</type>
+		<type fullname="GameOverMenu">
+			<method name="QuitGame"/>
+			<method name="RestartGame"/>
+		</type>
+		<type fullname="MenuController">
+			<method name="Iniciar"/>
+			<method name="Sair"/>
+		</type>
+	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
 			<method name="OnAction"/>

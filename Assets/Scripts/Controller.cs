@@ -29,4 +29,8 @@ public class Controller : MonoBehaviour
         Vida--;
     }
 
+    public void GanharVida() {
+        Vida++;
+    }
+
 }

@@ -1,8 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Dificuldades : MonoBehaviour
-{
+public class Dificuldades : MonoBehaviour {
+
+    public AudioSource audioSource;
+    public AudioClip somClique;
+
     private int VidaDefinida;
 
     public static Dificuldades Instance;
@@ -18,25 +21,41 @@ public class Dificuldades : MonoBehaviour
     }
 
     public void Facil() {
-        Controller.Instance.DefineVida(5);
-        Instance.DefineVidaRecuperada(5);
-        Iniciar();
+        audioSource.PlayOneShot(somClique);
+
+        StartCoroutine(CarregarCenaComDelay(somClique.length, 5));
     }
 
     public void Medio() {
-        Controller.Instance.DefineVida(3);
-        Instance.DefineVidaRecuperada(3);
-        Iniciar();
+        audioSource.PlayOneShot(somClique);
+
+        StartCoroutine(CarregarCenaComDelay(somClique.length, 3));
     }
 
     public void Dificil() {
-        Controller.Instance.DefineVida(1);
-        Instance.DefineVidaRecuperada(1);
+        audioSource.PlayOneShot(somClique);
+
+        StartCoroutine(CarregarCenaComDelay(somClique.length, 1));
+    }
+
+    private System.Collections.IEnumerator CarregarCenaComDelay(float delay, int vida) {
+        yield return new WaitForSeconds(delay);
+
+        Controller.Instance.DefineVida(vida);
+        Instance.DefineVidaRecuperada(vida);
         Iniciar();
     }
 
+    private System.Collections.IEnumerator CarregarCenaComDelay(string nomeCena, float delay) {
+        yield return new WaitForSeconds(delay);
+        SceneManager.LoadScene(nomeCena);
+    }
+
     public void Voltar() {
-        SceneManager.LoadScene("Inicio");
+        audioSource.PlayOneShot(somClique);
+
+        StartCoroutine(CarregarCenaComDelay("Inicio",somClique.length));
+        //SceneManager.LoadScene("Inicio");
     }
 
     public void Iniciar() {

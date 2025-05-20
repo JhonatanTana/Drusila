@@ -3,13 +3,15 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
+    private Enemies enemies;
+
     private void Start() {
         Controller.Instance.RecuperaVida();
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
 
-        if (other.CompareTag("Player")) // Certifique-se que o jogador tem a tag "Player"
+        if (other.CompareTag("Player") && enemies.dying) // Certifique-se que o jogador tem a tag "Player"
         {
             Controller.Instance.PerderVida();
 
