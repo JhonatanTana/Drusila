@@ -9,11 +9,9 @@ public class MusicaFundo : MonoBehaviour
         if (instance == null) {
             instance = this;
             DontDestroyOnLoad(gameObject);
-            Debug.Log("MusicaFundo iniciado e vai persistir.");
         }
         else {
             Destroy(gameObject);
-            Debug.Log("MusicaFundo duplicado destruído.");
         }
     }
 }

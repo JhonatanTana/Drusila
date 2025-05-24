@@ -15,11 +15,11 @@ public class GameOver : MonoBehaviour
         {
             Controller.Instance.PerderVida();
 
-            if (Controller.Instance.RecuperaVida() > 0) {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            } else {
-                SceneManager.LoadScene("GameOver"); // Carrega a cena de Game Over
-            }
+            //if (Controller.Instance.RecuperaVida() > 0) {
+            //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            //} else {
+            //    SceneManager.LoadScene("GameOver"); // Carrega a cena de Game Over
+            //}
         }
     }
 }

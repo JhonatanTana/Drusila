@@ -1,7 +1,7 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class Jogador : MonoBehaviour
-{
+public class Jogador : MonoBehaviour {
     public static Jogador Instance;
     public float Speed;
     public float jump;
@@ -14,7 +14,9 @@ public class Jogador : MonoBehaviour
     public float attackRange = 0.5f; // Alcance do ataque
     public int damage = 1; // Dano causado
     public Transform attackPoint; // Ponto de ataque (você vai criar um vazio para isso)
-    public string enemyTag = "Enemy";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
+    private string enemyTag = "Enemy";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
+    private int ataqueIndex = 0;
+    private const int totalAtaques = 3;
 
     void Awake() {
         Instance = this;
@@ -24,7 +26,7 @@ public class Jogador : MonoBehaviour
     void Start() {
 
         rig = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -33,9 +35,25 @@ public class Jogador : MonoBehaviour
         Movimentar();
         Pular();
 
-        if (Input.GetMouseButtonDown(0)) { // 0 é o botão esquerdo do mouse
+        if (Input.GetAxis("Horizontal") > 0f) {
+            anim.SetBool("Correndo", true);
+        }
+        else if (Input.GetAxis("Horizontal") < 0f) {
+            anim.SetBool("Correndo", true);
+        }
+        else {
+            anim.SetBool("Correndo", false);
+        }
+
+        if (Input.GetMouseButtonDown(0)) {
+
+            anim.SetInteger("AtaqueIndex", ataqueIndex);
+            anim.SetTrigger("Atacando");
+
+            ataqueIndex = (ataqueIndex + 1) % totalAtaques;
             Attack();
         }
+
     }
 
     void Movimentar() {
@@ -45,18 +63,13 @@ public class Jogador : MonoBehaviour
 
         if (Input.GetAxis("Horizontal") > 0f) {
 
-            //anim.SetBool("Walk", true);
+
             transform.eulerAngles = new Vector3(0f, 0f, 0f);
         }
         else if (Input.GetAxis("Horizontal") < 0f) {
 
-            //anim.SetBool("Walk", true);
             transform.eulerAngles = new Vector3(0f, 180f, 0f);
 
-        }
-        else {
-
-            //anim.SetBool("Walk", false);
         }
     }
 
@@ -68,7 +81,8 @@ public class Jogador : MonoBehaviour
 
                 rig.AddForce(new Vector2(0f, jump), ForceMode2D.Impulse);
                 DoubleJump = true;
-                //anim.SetBool("Jump", true);
+                anim.SetTrigger("Pulando");
+                anim.SetBool("Pulo", true);
             }
             else {
 
@@ -86,7 +100,7 @@ public class Jogador : MonoBehaviour
         if (collision.gameObject.layer == 8) {
 
             IsJumping = false;
-            //anim.SetBool("Jump", false);
+            anim.SetBool("Pulo", false);
         }
 
     }
@@ -100,19 +114,16 @@ public class Jogador : MonoBehaviour
     }
 
     void Attack() {
-        // Toca a animação de ataque
-        //anim.SetTrigger("ataque");
-
-        // Detecta todos os objetos em um círculo no ponto de ataque
+        // Detecta todos os objetos no raio de ataque
         Collider2D[] hitObjects = Physics2D.OverlapCircleAll(attackPoint.position, attackRange);
 
-        // Verifica se os objetos encontrados possuem a tag "Enemy"
         foreach (Collider2D obj in hitObjects) {
             if (obj.CompareTag(enemyTag)) {
                 obj.GetComponent<Enemies>().TakeDamage(damage);
             }
         }
     }
+
 
     // Desenha o alcance do ataque no Editor para facilitar ajustes
     private void OnDrawGizmosSelected() {
@@ -123,5 +134,9 @@ public class Jogador : MonoBehaviour
 
     public void GanharDano() {
         damage++;
+    }
+
+    public void OnMorteAnimationComplete() {
+        SceneManager.LoadScene("GameOver");
     }
 }

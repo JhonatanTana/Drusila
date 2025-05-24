@@ -148,6 +148,18 @@ PrefabInstance:
       propertyPath: m_Size.x
       value: 0.4
       objectReference: {fileID: 0}
+    - target: {fileID: 1989696439100726663, guid: ce1231a45f6ba2845b6eb77af067d3c1, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3202473704510146972, guid: ce1231a45f6ba2845b6eb77af067d3c1, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4115073596758451645, guid: ce1231a45f6ba2845b6eb77af067d3c1, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 5895334627557250411, guid: ce1231a45f6ba2845b6eb77af067d3c1, type: 3}
       propertyPath: m_Name
       value: Enemy

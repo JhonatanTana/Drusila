@@ -65,13 +65,6 @@ public class Enemies : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision) {
         if (collision.collider.CompareTag("Player")) {
             Controller.Instance.PerderVida();
-
-            if (Controller.Instance.RecuperaVida() > 0) {
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-            }
-            else {
-                SceneManager.LoadScene("GameOver");
-            }
         }
     }
 
