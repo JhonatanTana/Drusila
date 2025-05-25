@@ -1,5 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="AreaDeTiro" preserve="nothing"/>
+		<type fullname="Boss" preserve="nothing"/>
 		<type fullname="CameraFollow2D" preserve="nothing"/>
 		<type fullname="Coletaveis" preserve="nothing"/>
 		<type fullname="Controller" preserve="nothing"/>
@@ -11,9 +13,9 @@
 		<type fullname="Jogador" preserve="nothing"/>
 		<type fullname="MenuController" preserve="nothing"/>
 		<type fullname="Parallax" preserve="nothing"/>
+		<type fullname="Projetil" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
-		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManagerUpdater" preserve="nothing"/>
 	</assembly>
@@ -125,6 +127,7 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.CompositeCollider2D" preserve="nothing"/>

@@ -7,6 +7,9 @@ TagManager:
   - Head
   - Enemy
   - Limit
+  - Boss
+  - Projetil
+  - Obstaculo
   layers:
   - Default
   - TransparentFX

@@ -15,6 +15,7 @@ public class Jogador : MonoBehaviour {
     public int damage = 1; // Dano causado
     public Transform attackPoint; // Ponto de ataque (você vai criar um vazio para isso)
     private string enemyTag = "Enemy";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
+    private string bossTag = "Boss";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
     private int ataqueIndex = 0;
     private const int totalAtaques = 3;
 
@@ -120,6 +121,9 @@ public class Jogador : MonoBehaviour {
         foreach (Collider2D obj in hitObjects) {
             if (obj.CompareTag(enemyTag)) {
                 obj.GetComponent<Enemies>().TakeDamage(damage);
+            }
+            else if (obj.CompareTag(bossTag)) {
+                obj.GetComponent<Boss>().TakeDamage(damage);
             }
         }
     }

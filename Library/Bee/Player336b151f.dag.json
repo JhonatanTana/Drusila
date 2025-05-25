@@ -198,7 +198,8 @@
         188,
         189,
         190,
-        191
+        191,
+        192
       ],
       "DebugActionIndex": 0
     },
@@ -563,6 +564,24 @@
       "DebugActionIndex": 20
     },
     {
+      "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets2.resource",
+      "DisplayName": "Copying sharedassets2.resource",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.resource"
+      ],
+      "InputFlags": [
+        0
+      ],
+      "Outputs": [
+        "D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets2.resource"
+      ],
+      "OutputFlags": [
+        2
+      ],
+      "DebugActionIndex": 21
+    },
+    {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets3.assets",
       "DisplayName": "Copying sharedassets3.assets",
       "ActionType": "CopyFiles",
@@ -578,7 +597,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets4.assets",
@@ -596,7 +615,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets4.assets.resS",
@@ -614,7 +633,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/sharedassets4.resource",
@@ -632,14 +651,14 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 55408,
+      "PayloadLength": 55469,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "InputFlags": [],
@@ -649,7 +668,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -678,6 +697,7 @@
         "Library/PlayerDataCache/Win642/Data/sharedassets1.assets.resS",
         "Library/PlayerDataCache/Win642/Data/sharedassets2.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets2.assets.resS",
+        "Library/PlayerDataCache/Win642/Data/sharedassets2.resource",
         "Library/PlayerDataCache/Win642/Data/sharedassets3.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets4.assets",
         "Library/PlayerDataCache/Win642/Data/sharedassets4.assets.resS",
@@ -1535,6 +1555,7 @@
         0,
         0,
         0,
+        0,
         2,
         2,
         2,
@@ -1578,11 +1599,11 @@
         0
       ],
       "ToBuildDependencies": [
-        25
+        26
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/boot.config",
@@ -1601,15 +1622,15 @@
         2
       ],
       "ToBuildDependencies": [
-        26
+        27
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "WriteResponseFile Library/Bee/artifacts/rsp/14481509926303305421.rsp",
       "DisplayName": "Writing 14481509926303305421.rsp",
       "ActionType": "WriteFile",
-      "PayloadOffset": 55581,
+      "PayloadOffset": 55642,
       "PayloadLength": 81724,
       "PayloadDebugContentSnippet": "--allowed-assembly=\"C:/Program",
       "Inputs": [],
@@ -1620,7 +1641,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "UnityLinker D:/Projetos/Drusila/DrusilaGame/Library/Bee/artifacts/unitylinker_dwek.traceevents",
@@ -2968,7 +2989,7 @@
         0
       ],
       "ToBuildDependencies": [
-        28
+        29
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
@@ -2994,7 +3015,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Assembly-CSharp.dll",
@@ -3013,9 +3034,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Mono.Security.dll",
@@ -3034,9 +3055,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/mscorlib.dll",
@@ -3055,9 +3076,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/netstandard.dll",
@@ -3076,9 +3097,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.ComponentModel.Composition.dll",
@@ -3097,9 +3118,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Configuration.dll",
@@ -3118,9 +3139,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Core.dll",
@@ -3139,9 +3160,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -3160,9 +3181,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Data.dll",
@@ -3181,9 +3202,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.dll",
@@ -3202,9 +3223,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Drawing.dll",
@@ -3223,9 +3244,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.EnterpriseServices.dll",
@@ -3244,9 +3265,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.IO.Compression.dll",
@@ -3265,9 +3286,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -3286,9 +3307,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Net.Http.dll",
@@ -3307,9 +3328,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Numerics.dll",
@@ -3328,9 +3349,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Runtime.dll",
@@ -3349,9 +3370,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Runtime.Serialization.dll",
@@ -3370,9 +3391,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Security.dll",
@@ -3391,9 +3412,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.ServiceModel.Internals.dll",
@@ -3412,9 +3433,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Transactions.dll",
@@ -3433,9 +3454,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Xml.dll",
@@ -3454,9 +3475,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/System.Xml.Linq.dll",
@@ -3475,9 +3496,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.Animation.Runtime.dll",
@@ -3496,9 +3517,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.Common.Runtime.dll",
@@ -3517,9 +3538,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.IK.Runtime.dll",
@@ -3538,9 +3559,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.PixelPerfect.dll",
@@ -3559,9 +3580,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.SpriteShape.Runtime.dll",
@@ -3580,9 +3601,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.2D.Tilemap.Extras.dll",
@@ -3601,9 +3622,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Burst.dll",
@@ -3622,9 +3643,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Burst.Unsafe.dll",
@@ -3643,9 +3664,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Cinemachine.dll",
@@ -3664,9 +3685,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Collections.dll",
@@ -3685,9 +3706,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
@@ -3706,9 +3727,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.InputSystem.dll",
@@ -3727,9 +3748,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.InputSystem.ForUI.dll",
@@ -3748,9 +3769,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
@@ -3769,9 +3790,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Mathematics.dll",
@@ -3790,9 +3811,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Multiplayer.Center.Common.dll",
@@ -3811,9 +3832,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Rendering.LightTransport.Runtime.dll",
@@ -3832,9 +3853,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -3853,9 +3874,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll",
@@ -3874,9 +3895,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll",
@@ -3895,9 +3916,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll",
@@ -3916,9 +3937,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll",
@@ -3937,9 +3958,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
@@ -3958,9 +3979,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll",
@@ -3979,9 +4000,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll",
@@ -4000,9 +4021,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -4021,9 +4042,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -4042,9 +4063,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Splines.dll",
@@ -4063,9 +4084,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.TextMeshPro.dll",
@@ -4084,9 +4105,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.Timeline.dll",
@@ -4105,9 +4126,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -4126,9 +4147,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -4147,9 +4168,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -4168,9 +4189,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/Unity.VisualScripting.State.dll",
@@ -4189,9 +4210,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -4210,9 +4231,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AIModule.dll",
@@ -4231,9 +4252,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AMDModule.dll",
@@ -4252,9 +4273,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -4273,9 +4294,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -4294,9 +4315,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ARModule.dll",
@@ -4315,9 +4336,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -4336,9 +4357,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.AudioModule.dll",
@@ -4357,9 +4378,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ClothModule.dll",
@@ -4378,9 +4399,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -4399,9 +4420,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -4420,9 +4441,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -4441,9 +4462,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.CoreModule.dll",
@@ -4462,9 +4483,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -4483,9 +4504,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -4504,9 +4525,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.dll",
@@ -4525,9 +4546,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -4546,9 +4567,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -4567,9 +4588,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.GIModule.dll",
@@ -4588,9 +4609,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll",
@@ -4609,9 +4630,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.GridModule.dll",
@@ -4630,9 +4651,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.HierarchyCoreModule.dll",
@@ -4651,9 +4672,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -4672,9 +4693,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -4693,9 +4714,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -4714,9 +4735,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.InputForUIModule.dll",
@@ -4735,9 +4756,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -4756,9 +4777,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.InputModule.dll",
@@ -4777,9 +4798,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -4798,9 +4819,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -4819,9 +4840,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.MarshallingModule.dll",
@@ -4840,9 +4861,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.MultiplayerModule.dll",
@@ -4861,9 +4882,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -4882,9 +4903,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -4903,9 +4924,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -4924,9 +4945,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -4945,9 +4966,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -4966,9 +4987,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -4987,9 +5008,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -5008,9 +5029,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -5029,9 +5050,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll",
@@ -5050,9 +5071,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -5071,9 +5092,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -5092,9 +5113,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -5113,9 +5134,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -5134,9 +5155,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -5155,9 +5176,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -5176,9 +5197,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -5197,9 +5218,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -5218,9 +5239,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -5239,9 +5260,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -5260,9 +5281,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -5281,9 +5302,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -5302,9 +5323,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.TLSModule.dll",
@@ -5323,9 +5344,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UI.dll",
@@ -5344,9 +5365,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -5365,9 +5386,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UIModule.dll",
@@ -5386,9 +5407,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -5407,9 +5428,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -5428,9 +5449,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -5449,9 +5470,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -5470,9 +5491,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -5491,9 +5512,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -5512,9 +5533,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -5533,9 +5554,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -5554,9 +5575,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -5575,9 +5596,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -5596,9 +5617,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -5617,9 +5638,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -5638,9 +5659,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.VFXModule.dll",
@@ -5659,9 +5680,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.VideoModule.dll",
@@ -5680,9 +5701,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -5701,9 +5722,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.VRModule.dll",
@@ -5722,9 +5743,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.WindModule.dll",
@@ -5743,9 +5764,9 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Managed/UnityEngine.XRModule.dll",
@@ -5764,15 +5785,15 @@
         2
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 137428,
+      "PayloadOffset": 137489,
       "PayloadLength": 12654,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
@@ -6061,7 +6082,7 @@
         0
       ],
       "ToBuildDependencies": [
-        29
+        30
       ],
       "StatSignatures": [
         {
@@ -6087,7 +6108,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -6106,15 +6127,15 @@
         2
       ],
       "ToBuildDependencies": [
-        162
+        163
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 150171,
+      "PayloadOffset": 150232,
       "PayloadLength": 26,
       "PayloadDebugContentSnippet": "DefaultCompany\nDrusilaGame",
       "Inputs": [],
@@ -6125,7 +6146,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/app.info",
@@ -6144,9 +6165,9 @@
         2
       ],
       "ToBuildDependencies": [
-        164
+        165
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame_Data/Resources/unity default resources",
@@ -6164,7 +6185,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/DrusilaGame.exe",
@@ -6182,7 +6203,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -6200,7 +6221,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -6218,7 +6239,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -6236,7 +6257,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -6254,7 +6275,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -6272,7 +6293,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -6290,7 +6311,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -6308,7 +6329,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -6326,7 +6347,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -6344,7 +6365,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -6362,7 +6383,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -6380,7 +6401,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -6398,7 +6419,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -6416,7 +6437,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -6434,7 +6455,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -6452,7 +6473,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -6470,7 +6491,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -6488,7 +6509,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -6506,7 +6527,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/config",
@@ -6524,7 +6545,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -6542,7 +6563,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/UnityCrashHandler64.exe",
@@ -6560,7 +6581,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/UnityPlayer.dll",
@@ -6578,7 +6599,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles D:/Documentos/Desktop/Drusila/D3D12/D3D12Core.dll",
@@ -6596,7 +6617,7 @@
       "OutputFlags": [
         2
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "Player",
@@ -6630,8 +6651,8 @@
         22,
         23,
         24,
-        27,
-        30,
+        25,
+        28,
         31,
         32,
         33,
@@ -6763,8 +6784,8 @@
         159,
         160,
         161,
-        163,
-        165,
+        162,
+        164,
         166,
         167,
         168,
@@ -6789,9 +6810,10 @@
         187,
         188,
         189,
-        190
+        190,
+        191
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 192
     }
   ],
   "FileSignatures": [
@@ -7006,7 +7028,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 191
+          "Player": 192
         }
 ,  "DefaultNodes": [
     0

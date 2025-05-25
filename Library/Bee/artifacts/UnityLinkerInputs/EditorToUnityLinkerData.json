@@ -2,6 +2,20 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "AreaDeTiro",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Boss",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
@@ -183,6 +197,13 @@
             "nativeClass": "PhysicsManager",
             "fullManagedTypeName": "",
             "moduleName": "Physics",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Projetil",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -386,6 +407,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
+                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
@@ -397,6 +419,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
+                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
@@ -421,6 +444,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
+                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
@@ -445,6 +469,7 @@
             "moduleName": "Audio",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
+                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
@@ -505,6 +530,15 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CircleCollider2D",
+            "fullManagedTypeName": "UnityEngine.CircleCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/SCENE 1.unity"
             ]
         },
         {
@@ -1309,13 +1343,6 @@
                 "Assets/Scenes/Nivel1.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
