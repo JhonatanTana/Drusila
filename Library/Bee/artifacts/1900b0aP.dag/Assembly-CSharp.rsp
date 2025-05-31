@@ -367,6 +367,7 @@
 "Assets/Scripts/Jogador.cs"
 "Assets/Scripts/MusicaFundo.cs"
 "Assets/Scripts/Parallax.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/Projetil.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

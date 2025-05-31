@@ -16,6 +16,7 @@ public class Jogador : MonoBehaviour {
     public Transform attackPoint; // Ponto de ataque (você vai criar um vazio para isso)
     private string enemyTag = "Enemy";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
     private string bossTag = "Boss";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
+    private string projetilTag = "Projetil";         // Tag dos inimigos (adicione "Enemy" nos seus inimigos)
     private int ataqueIndex = 0;
     private const int totalAtaques = 3;
 
@@ -124,6 +125,8 @@ public class Jogador : MonoBehaviour {
             }
             else if (obj.CompareTag(bossTag)) {
                 obj.GetComponent<Boss>().TakeDamage(damage);
+            } else if(obj.CompareTag(projetilTag)) {
+                obj.GetComponent<Projetil>().Destruir();
             }
         }
     }

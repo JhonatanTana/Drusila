@@ -14,6 +14,11 @@
 			<method name="Iniciar"/>
 			<method name="Sair"/>
 		</type>
+		<type fullname="PauseMenu">
+			<method name="CarregarMenu"/>
+			<method name="Retomar"/>
+			<method name="SairDoJogo"/>
+		</type>
 	</assembly>
 	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
 		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">

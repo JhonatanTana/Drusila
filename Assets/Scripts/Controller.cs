@@ -45,4 +45,5 @@ public class Controller : MonoBehaviour
     public void GanharVida() {
         Vida++;
     }
+
 }

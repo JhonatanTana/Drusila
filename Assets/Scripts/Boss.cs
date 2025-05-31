@@ -1,5 +1,3 @@
-using System;
-using System.Net.NetworkInformation;
 using UnityEngine;
 
 public class Boss : MonoBehaviour {
@@ -80,8 +78,20 @@ public class Boss : MonoBehaviour {
         if (projetilPrefab == null || pontoDeDisparo == null) return;
 
         GameObject projetil = Instantiate(projetilPrefab, pontoDeDisparo.position, Quaternion.identity);
+
         Vector2 direcao = (jogador.position - pontoDeDisparo.position).normalized;
-        projetil.GetComponent<Rigidbody2D>().linearVelocity = direcao * velocidadeDoProjetil;
+        direcao.y = 0;  
+
+        Rigidbody2D rb = projetil.GetComponent<Rigidbody2D>();
+        rb.linearVelocity = direcao * velocidadeDoProjetil;
+        rb.gravityScale = 0;
+
+        // Calcula o ângulo para a rotação
+        float angulo = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg;
+
+        // Faz o projetil rotacionar apenas no eixo Z
+        projetil.transform.rotation = Quaternion.Euler(0, 0, angulo);
+
         Destroy(projetil, 5f);
     }
 
@@ -90,10 +100,17 @@ public class Boss : MonoBehaviour {
 
         if (health <= 0) {
             //dying = true;
+            parandoParaAtirar = true;
             animator.SetTrigger("morte");
             Invoke("Die", 0.5f); // 1 segundo de delay para a animação rodar
         } else {
             animator.SetTrigger("dano");
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) {
+        if (collision.collider.CompareTag("Player")) {
+            Controller.Instance.PerderVida();
         }
     }
 

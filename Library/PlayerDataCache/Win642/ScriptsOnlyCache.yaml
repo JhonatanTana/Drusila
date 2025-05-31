@@ -14,10 +14,12 @@ ScriptsOnlyBuild:
     - Jogador
     - MenuController
     - Parallax
+    - PauseMenu
     - Projetil
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
@@ -125,8 +127,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -342,6 +346,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: Dificuldades
     methodName: Voltar
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: SairDoJogo
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: CarregarMenu
+  - assembly: Assembly-CSharp
+    fullTypeName: PauseMenu
+    methodName: Retomar
   sceneClasses:
     Assets/Scenes/Dificuldades.unity:
     - Class: 1
@@ -727,15 +740,29 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 872}
     - Class: 114
+      Script: {instanceID: 16034}
+    - Class: 114
+      Script: {instanceID: 16564}
+    - Class: 114
+      Script: {instanceID: 17442}
+    - Class: 114
       Script: {instanceID: 17778}
     - Class: 114
       Script: {instanceID: 17858}
+    - Class: 114
+      Script: {instanceID: 17958}
+    - Class: 114
+      Script: {instanceID: 18414}
+    - Class: 114
+      Script: {instanceID: 20416}
     - Class: 114
       Script: {instanceID: 20530}
     - Class: 114
       Script: {instanceID: 21584}
     - Class: 114
       Script: {instanceID: 21794}
+    - Class: 114
+      Script: {instanceID: 23376}
     - Class: 114
       Script: {instanceID: 23928}
     - Class: 114
@@ -751,8 +778,18 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 27212}
     - Class: 114
+      Script: {instanceID: 27634}
+    - Class: 114
+      Script: {instanceID: 27746}
+    - Class: 114
+      Script: {instanceID: 28592}
+    - Class: 114
       Script: {instanceID: 28920}
+    - Class: 114
+      Script: {instanceID: 57844}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -761,6 +798,12 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -3233,6 +3276,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: 0e02ef30098b7d5b728d4a89aa9bcad8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
   platform: 19
   scenePathNames:
   - Assets/Scenes/Inicio.unity

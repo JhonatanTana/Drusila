@@ -193,6 +193,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "PauseMenu",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "PhysicsManager",
             "fullManagedTypeName": "",
@@ -518,7 +525,8 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity"
+                "Assets/Scenes/Inicio.unity",
+                "Assets/Scenes/SCENE 1.unity"
             ]
         },
         {
@@ -529,7 +537,8 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity"
+                "Assets/Scenes/Inicio.unity",
+                "Assets/Scenes/SCENE 1.unity"
             ]
         },
         {
@@ -614,7 +623,8 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity"
+                "Assets/Scenes/Inicio.unity",
+                "Assets/Scenes/SCENE 1.unity"
             ]
         },
         {
@@ -768,7 +778,8 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity"
+                "Assets/Scenes/Inicio.unity",
+                "Assets/Scenes/SCENE 1.unity"
             ]
         },
         {
@@ -1343,6 +1354,13 @@
                 "Assets/Scenes/Nivel1.unity",
                 "Assets/Scenes/SCENE 1.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
