@@ -62,6 +62,33 @@ public class Dificuldades : MonoBehaviour {
         SceneManager.LoadScene("SCENE 1");
     }
 
+    private void OnEnable() {
+        SceneManager.sceneLoaded += OnSceneLoaded;
+    }
+
+    private void OnDisable() {
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+
+    private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        if (scene.name == "SCENE 1") {
+            // Agora a cena está carregada!
+            GameObject player = GameObject.Find("Player");
+            if (player != null) {
+                Animator animator = player.GetComponent<Animator>();
+                if (animator != null) {
+                    Controller.Instance.anim = animator;
+                }
+                else {
+                    Debug.LogError("Animator não encontrado no Player!");
+                }
+            }
+            else {
+                Debug.LogError("Player não encontrado na cena!");
+            }
+        }
+    }
+
     private void DefineVidaRecuperada(int vida) {
         VidaDefinida = vida;
     }
