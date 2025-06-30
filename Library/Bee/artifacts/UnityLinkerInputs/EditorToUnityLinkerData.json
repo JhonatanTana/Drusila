@@ -2,20 +2,6 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "AreaDeTiro",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Boss",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
@@ -25,21 +11,14 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "CameraFollow2D",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Coletaveis",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Controller",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Dash",
             "moduleName": "",
             "usedInScenes": []
         },
@@ -66,16 +45,8 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Enemies",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "",
@@ -86,16 +57,8 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "GameOver",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
@@ -114,13 +77,6 @@
         {
             "managedAssemblyName": "Assembly-CSharp.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "HeadTrigger",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Jogador",
             "moduleName": "",
             "usedInScenes": []
@@ -134,8 +90,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -161,8 +116,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -181,8 +135,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -193,24 +146,10 @@
             "usedInScenes": []
         },
         {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "PauseMenu",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
             "managedAssemblyName": "",
             "nativeClass": "PhysicsManager",
             "fullManagedTypeName": "",
             "moduleName": "Physics",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Assembly-CSharp.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "Projetil",
-            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -300,13 +239,6 @@
         {
             "managedAssemblyName": "Unity.Cinemachine.dll",
             "nativeClass": "",
-            "fullManagedTypeName": "Unity.Cinemachine.CinemachineCameraOffset",
-            "moduleName": "",
-            "usedInScenes": []
-        },
-        {
-            "managedAssemblyName": "Unity.Cinemachine.dll",
-            "nativeClass": "",
             "fullManagedTypeName": "Unity.Cinemachine.CinemachinePositionComposer",
             "moduleName": "",
             "usedInScenes": []
@@ -317,7 +249,7 @@
             "fullManagedTypeName": "UnityEditor.Animations.AnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -350,8 +282,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -395,7 +326,7 @@
             "fullManagedTypeName": "UnityEngine.AnimationClip",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -404,7 +335,7 @@
             "fullManagedTypeName": "UnityEngine.Animator",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -415,8 +346,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -427,8 +357,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -440,8 +369,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -452,8 +380,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -465,8 +392,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -477,8 +403,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -490,8 +415,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -500,8 +424,7 @@
             "fullManagedTypeName": "UnityEngine.BoxCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -513,8 +436,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -525,8 +447,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -537,17 +458,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
-            ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.dll",
-            "nativeClass": "CircleCollider2D",
-            "fullManagedTypeName": "UnityEngine.CircleCollider2D",
-            "moduleName": "Physics2D",
-            "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -556,8 +467,7 @@
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -569,8 +479,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -579,7 +488,7 @@
             "fullManagedTypeName": "UnityEngine.CompositeCollider2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -597,8 +506,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -623,8 +531,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -636,8 +543,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -646,8 +552,7 @@
             "fullManagedTypeName": "UnityEngine.Grid",
             "moduleName": "Grid",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -656,8 +561,7 @@
             "fullManagedTypeName": "UnityEngine.GridLayout",
             "moduleName": "Grid",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -711,8 +615,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -724,8 +627,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -737,8 +639,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -747,7 +648,7 @@
             "fullManagedTypeName": "UnityEngine.Motion",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -759,8 +660,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -778,8 +678,7 @@
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
-                "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Inicio.unity"
             ]
         },
         {
@@ -788,8 +687,7 @@
             "fullManagedTypeName": "UnityEngine.Renderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1207,8 +1105,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1217,8 +1114,7 @@
             "fullManagedTypeName": "UnityEngine.Rigidbody2D",
             "moduleName": "Physics2D",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1227,7 +1123,7 @@
             "fullManagedTypeName": "UnityEngine.RuntimeAnimatorController",
             "moduleName": "Animation",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1239,8 +1135,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1252,8 +1147,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1262,8 +1156,7 @@
             "fullManagedTypeName": "UnityEngine.SpriteRenderer",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1275,8 +1168,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1288,8 +1180,7 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1301,16 +1192,8 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "UnityEngine.TilemapModule.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.Tilemaps.Tile",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
@@ -1318,8 +1201,7 @@
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
             "moduleName": "Tilemap",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1328,8 +1210,7 @@
             "fullManagedTypeName": "UnityEngine.Tilemaps.TilemapCollider2D",
             "moduleName": "Tilemap",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1338,8 +1219,7 @@
             "fullManagedTypeName": "UnityEngine.Tilemaps.TilemapRenderer",
             "moduleName": "Tilemap",
             "usedInScenes": [
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {
@@ -1351,16 +1231,8 @@
                 "Assets/Scenes/Dificuldades.unity",
                 "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
-                "Assets/Scenes/Nivel1.unity",
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
-        },
-        {
-            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
-            "nativeClass": "",
-            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
-            "moduleName": "",
-            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
@@ -1382,7 +1254,7 @@
             "fullManagedTypeName": "UnityEngine.U2D.SpriteAtlas",
             "moduleName": "Core",
             "usedInScenes": [
-                "Assets/Scenes/SCENE 1.unity"
+                "Assets/Scenes/Teste.unity"
             ]
         },
         {

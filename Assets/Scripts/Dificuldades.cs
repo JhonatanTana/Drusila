@@ -59,7 +59,7 @@ public class Dificuldades : MonoBehaviour {
     }
 
     public void Iniciar() {
-        SceneManager.LoadScene("SCENE 1");
+        SceneManager.LoadScene("teste");
     }
 
     private void OnEnable() {
