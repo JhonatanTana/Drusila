@@ -2,6 +2,20 @@
     "serializedTypes": [],
     "typesInScenes": [
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Bandit",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Boss",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "BuildSettings",
             "fullManagedTypeName": "",
@@ -153,6 +167,13 @@
             "usedInScenes": []
         },
         {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Projetil",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "",
             "nativeClass": "ResourceManager",
             "fullManagedTypeName": "",
@@ -164,6 +185,13 @@
             "nativeClass": "RuntimeInitializeOnLoadManager",
             "fullManagedTypeName": "",
             "moduleName": "Core",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Assembly-CSharp.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "Sensor_Bandit",
+            "moduleName": "",
             "usedInScenes": []
         },
         {
@@ -340,6 +368,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "AnimatorOverrideController",
+            "fullManagedTypeName": "UnityEngine.AnimatorOverrideController",
+            "moduleName": "Animation",
+            "usedInScenes": [
+                "Assets/Scenes/Teste.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "AudioResource",
             "fullManagedTypeName": "UnityEngine.Audio.AudioResource",
             "moduleName": "Audio",
@@ -463,6 +500,15 @@
         },
         {
             "managedAssemblyName": "UnityEngine.dll",
+            "nativeClass": "CircleCollider2D",
+            "fullManagedTypeName": "UnityEngine.CircleCollider2D",
+            "moduleName": "Physics2D",
+            "usedInScenes": [
+                "Assets/Scenes/Teste.unity"
+            ]
+        },
+        {
+            "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Collider2D",
             "fullManagedTypeName": "UnityEngine.Collider2D",
             "moduleName": "Physics2D",
@@ -530,7 +576,6 @@
             "moduleName": "TextRendering",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
-                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity"
             ]
         },
@@ -625,7 +670,6 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
-                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/Teste.unity"
             ]
@@ -1133,7 +1177,6 @@
             "moduleName": "Core",
             "usedInScenes": [
                 "Assets/Scenes/Dificuldades.unity",
-                "Assets/Scenes/GameOver.unity",
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/Teste.unity"
             ]
@@ -1196,6 +1239,13 @@
             ]
         },
         {
+            "managedAssemblyName": "UnityEngine.TilemapModule.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.Tilemaps.Tile",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
             "managedAssemblyName": "UnityEngine.dll",
             "nativeClass": "Tilemap",
             "fullManagedTypeName": "UnityEngine.Tilemaps.Tilemap",
@@ -1233,6 +1283,13 @@
                 "Assets/Scenes/Inicio.unity",
                 "Assets/Scenes/Teste.unity"
             ]
+        },
+        {
+            "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",
+            "nativeClass": "",
+            "fullManagedTypeName": "UnityEngine.U2D.Animation.BufferManager",
+            "moduleName": "",
+            "usedInScenes": []
         },
         {
             "managedAssemblyName": "Unity.2D.Animation.Runtime.dll",

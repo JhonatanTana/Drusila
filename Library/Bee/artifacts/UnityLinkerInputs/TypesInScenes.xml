@@ -1,5 +1,7 @@
 <linker>
 	<assembly fullname="Assembly-CSharp">
+		<type fullname="Bandit" preserve="nothing"/>
+		<type fullname="Boss" preserve="nothing"/>
 		<type fullname="Controller" preserve="nothing"/>
 		<type fullname="Dash" preserve="nothing"/>
 		<type fullname="Dificuldades" preserve="nothing"/>
@@ -7,8 +9,11 @@
 		<type fullname="Jogador" preserve="nothing"/>
 		<type fullname="MenuController" preserve="nothing"/>
 		<type fullname="Parallax" preserve="nothing"/>
+		<type fullname="Projetil" preserve="nothing"/>
+		<type fullname="Sensor_Bandit" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="Unity.2D.Animation.Runtime">
+		<type fullname="UnityEngine.U2D.Animation.BufferManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManager" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.Animation.DeformationManagerUpdater" preserve="nothing"/>
 	</assembly>
@@ -109,6 +114,7 @@
 		<type fullname="UnityEditor.VFXManager" preserve="nothing"/>
 		<type fullname="UnityEngine.AnimationClip" preserve="nothing"/>
 		<type fullname="UnityEngine.Animator" preserve="nothing"/>
+		<type fullname="UnityEngine.AnimatorOverrideController" preserve="nothing"/>
 		<type fullname="UnityEngine.Audio.AudioResource" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioBehaviour" preserve="nothing"/>
 		<type fullname="UnityEngine.AudioClip" preserve="nothing"/>
@@ -119,6 +125,7 @@
 		<type fullname="UnityEngine.Camera" preserve="nothing"/>
 		<type fullname="UnityEngine.Canvas" preserve="nothing"/>
 		<type fullname="UnityEngine.CanvasRenderer" preserve="nothing"/>
+		<type fullname="UnityEngine.CircleCollider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Collider2D" preserve="nothing"/>
 		<type fullname="UnityEngine.Component" preserve="nothing"/>
 		<type fullname="UnityEngine.CompositeCollider2D" preserve="nothing"/>
@@ -151,6 +158,9 @@
 		<type fullname="UnityEngine.Tilemaps.TilemapRenderer" preserve="nothing"/>
 		<type fullname="UnityEngine.Transform" preserve="nothing"/>
 		<type fullname="UnityEngine.U2D.SpriteAtlas" preserve="nothing"/>
+	</assembly>
+	<assembly fullname="UnityEngine.TilemapModule">
+		<type fullname="UnityEngine.Tilemaps.Tile" preserve="nothing"/>
 	</assembly>
 	<assembly fullname="UnityEngine.UI">
 		<type fullname="UnityEngine.EventSystems.EventSystem" preserve="nothing"/>

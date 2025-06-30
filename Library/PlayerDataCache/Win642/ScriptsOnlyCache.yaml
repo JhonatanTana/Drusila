@@ -1,6 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - Bandit
+    - Boss
     - Controller
     - Dash
     - Dificuldades
@@ -8,25 +10,23 @@ ScriptsOnlyBuild:
     - Jogador
     - MenuController
     - Parallax
+    - Projetil
+    - Sensor_Bandit
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.Animation.Runtime.dll:
+    - UnityEngine.U2D.Animation.BufferManager
     - UnityEngine.U2D.Animation.DeformationManager
     - UnityEngine.U2D.Animation.DeformationManagerUpdater
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
     Unity.2D.Tilemap.Editor.dll:
-    - UnityEditor.Tilemaps.GridBrushPickStore
-    - UnityEditor.Tilemaps.GridPaintPaletteClipboard
-    - UnityEditor.Tilemaps.GridPaintPaletteWindow
     - UnityEditor.Tilemaps.GridPaintingState
     - UnityEditor.Tilemaps.GridPaletteBrushes
     - UnityEditor.Tilemaps.GridPalettes
-    - UnityEditor.Tilemaps.PaintableSceneViewGrid
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
-    - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Cinemachine.dll:
     - Unity.Cinemachine.CinemachineBrain
@@ -115,15 +115,14 @@ ScriptsOnlyBuild:
     - TMPro.TMP_StyleSheet
     Unity.TextMeshPro.dll:
     - TMPro.TMP_FontAsset
-    - TMPro.TMP_Settings
-    - TMPro.TMP_SpriteAsset
-    - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -412,11 +411,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
-    - Class: 21
-      Script: {instanceID: 0}
     - Class: 28
-      Script: {instanceID: 0}
-    - Class: 48
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
@@ -428,8 +423,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16038}
     - Class: 114
       Script: {instanceID: 16568}
     - Class: 114
@@ -452,11 +445,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 27640}
     - Class: 114
       Script: {instanceID: 27752}
-    - Class: 114
-      Script: {instanceID: 28598}
     - Class: 115
-      Script: {instanceID: 0}
-    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -495,8 +484,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
-    - Class: 114
-      Script: {instanceID: 16038}
     - Class: 114
       Script: {instanceID: 16226}
     - Class: 114
@@ -642,6 +629,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 50
       Script: {instanceID: 0}
+    - Class: 58
+      Script: {instanceID: 0}
     - Class: 61
       Script: {instanceID: 0}
     - Class: 66
@@ -669,9 +658,17 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 21798}
     - Class: 114
+      Script: {instanceID: 23932}
+    - Class: 114
+      Script: {instanceID: 24550}
+    - Class: 114
       Script: {instanceID: 26484}
     - Class: 114
       Script: {instanceID: 27138}
+    - Class: 114
+      Script: {instanceID: 57726}
+    - Class: 114
+      Script: {instanceID: 57728}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -681,6 +678,8 @@ ScriptsOnlyBuild:
     - Class: 212
       Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 221
       Script: {instanceID: 0}
     - Class: 19719996
       Script: {instanceID: 0}
@@ -3165,6 +3164,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Splines
     namespaceName: UnityEngine.Splines
     className: SplineExtrude
+  - hash:
+      serializedVersion: 2
+      Hash: 86858d5f214b992bb4f3d8c7d278bf1f
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Sensor_Bandit
+  - hash:
+      serializedVersion: 2
+      Hash: 56aa1933c2a559f36dfde3300d6229b4
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Bandit
   platform: 19
   scenePathNames:
   - Assets/Scenes/Inicio.unity
