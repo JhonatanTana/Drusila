@@ -59,7 +59,7 @@ public class Dificuldades : MonoBehaviour {
     }
 
     public void Iniciar() {
-        SceneManager.LoadScene("teste");
+        SceneManager.LoadScene("Teste");
     }
 
     private void OnEnable() {
@@ -71,6 +71,8 @@ public class Dificuldades : MonoBehaviour {
     }
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
+        if (scene.name != "Teste") return; // Evita execução para outras cenas
+
         GameObject player = GameObject.Find("Player");
         if (player != null) {
             Animator animator = player.GetComponent<Animator>();

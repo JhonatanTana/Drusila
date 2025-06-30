@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|d:\\projetos\\drusila\\drusilagame\\assets\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|D:\\Projetos\\Drusila\\DrusilaGame\\assets\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B860F07-BF93-4599-D014-82D3557138AD}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dificuldades.cs",
               "ToolTip": "D:\\Projetos\\Drusila\\DrusilaGame\\Assets\\Scripts\\Dificuldades.cs",
               "RelativeToolTip": "Assets\\Scripts\\Dificuldades.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAQwE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAiwFUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-02T16:14:53.649Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Controller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-02T16:11:57.362Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-02T16:11:57.362Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Inicio.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAqwBEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-24T03:27:51.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-24T03:27:51.639Z"
             }
           ]
         }

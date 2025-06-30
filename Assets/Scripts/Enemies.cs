@@ -15,9 +15,16 @@ public class Enemies : MonoBehaviour {
     public int health = 1;
     public bool dying = false;
 
+    public bool isWalking = false;
+
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        if (isWalking) {
+
+            animator.SetBool("IsWalking", true);
+        }
     }
 
     private void Update() {
