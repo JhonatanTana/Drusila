@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|c:\\users\\gabriel\\documents\\github\\drusila\\assets\\scripts\\headtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\headtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|c:\\users\\gabriel\\documents\\github\\drusila\\assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dificuldades.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|c:\\users\\gabriel\\documents\\github\\drusila\\assets\\scripts\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\assets\\scripts\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A612B95C-3FD6-F5A0-707B-E90E6A443453}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\dash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -27,6 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HeadTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\Assets\\Scripts\\HeadTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\HeadTrigger.cs",
+              "ToolTip": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\Assets\\Scripts\\HeadTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\HeadTrigger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-30T22:55:11.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Dificuldades.cs",
               "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\Assets\\Scripts\\Dificuldades.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dificuldades.cs",
@@ -39,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Dash.cs",
               "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\Assets\\Scripts\\Dash.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Dash.cs",
@@ -47,12 +64,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Dash.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-14T20:17:18.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-14T20:17:18.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Parallax.cs",
               "DocumentMoniker": "C:\\Users\\gabriel\\Documents\\GitHub\\Drusila\\Assets\\Scripts\\Parallax.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Parallax.cs",
